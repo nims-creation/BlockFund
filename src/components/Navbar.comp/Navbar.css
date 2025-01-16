@@ -1,0 +1,41 @@
+/* Navigation Bar Styling */
+.navbar {
+    background-color: rgba(0, 0, 0, 0.7); /* Translucent black */
+    padding: 15px 30px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar a {
+    color: #fff; /* White text to contrast against the dark background */
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 0 15px;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar a:hover {
+    color: #8AB6D6; /* Light blue to match the glowing stars and planet */
+    transition: 0.3s;
+}
+
+/* Button Styling */
+.navbar button {
+    background-color: #1E1E2E; /* Dark blue-gray button */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar button:hover {
+    background-color: #476080; /* Lighten the button on hover */
+    transition: 0.3s;
+}
